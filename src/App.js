@@ -40,7 +40,24 @@ function App() {
 
             <div className="intall-libraries">
               <h4>[2] Install this npm libraries:</h4>
-              <p>npm install gh-pages --save-dev</p><br />
+
+              <p>npm install gh-pages --save-dev</p>
+              <br />
+              <h4>* Goto package.json and follow this instruction: </h4>
+
+
+              <p>
+                [1] Type these json code at the top of name in json code.
+                <br />
+                👉"homepage": "https://github-username-here.github.io/github-repository-name-here"
+                <br />
+                [2] Find the script object in package.json file then type this below the 👉 "start": "react-scripts start"
+                <br />
+                👉 "predeploy": "npm run build", <br />
+                👉 "deploy": "gh-pages -d build",
+              </p>
+
+              <br />
             </div>
 
             <div className="git-command">
