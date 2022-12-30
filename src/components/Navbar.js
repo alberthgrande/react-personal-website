@@ -5,7 +5,10 @@ export default function Navbar() {
 
   return (
     <nav className="navigation">
-      <a href="./App.js" className="brand-name">
+      <a
+        href="https://alberthruado.github.io/react-personal-website/"
+        className="brand-name"
+      >
         AGR
       </a>
       <button
