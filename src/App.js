@@ -9,9 +9,8 @@ function App() {
         {/* home */}
         <section id="Home">
           <article>
-            <h1>Home </h1>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry...
+            <h1 className="title">Hello, my name is Alberth.</h1>
+            <p className="subtitle">Welcome to my website!</p>
           </article>
         </section>
         {/* about */}
