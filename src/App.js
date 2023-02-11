@@ -1,9 +1,16 @@
 import Navbar from "./components/Navbar";
 import "./App.css";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
-    <div>
+    <div className="App">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Alberth Grande</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="description" content="Personal Website" />
+      </Helmet>
       <Navbar />
       <div className="container">
         {/* home */}
